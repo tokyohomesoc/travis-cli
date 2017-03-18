@@ -8,7 +8,7 @@ RUN \
             gcc \
             libc-dev \
             make \
-            linux-headers
+            linux-headers \
     && gem install travis --no-ri --no-rdoc \
     && apk del .build-ruby
 
