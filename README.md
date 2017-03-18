@@ -1,6 +1,12 @@
 # The Travis Client for Docker [![Build Status](https://travis-ci.org/tokyohomesoc/travis-cli.svg?branch=master)](https://travis-ci.org/tokyohomesoc/travis-cli)
 [travis\-ci/travis\.rb: Travis CI Client \(CLI and Ruby library\)](https://github.com/travis-ci/travis.rb#help)
 
+## HOU TO
+```
+docker run --rm -it tokyohomesoc/travis-cli ash
+/ # touch .travis.yml
+/ # travis encrypt -r owner/repos "domain:token" --add notifications.slack
+```
 ## LICENSE
 
 ```
