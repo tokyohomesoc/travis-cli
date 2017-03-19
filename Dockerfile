@@ -10,6 +10,7 @@ RUN \
             make \
             linux-headers \
     && gem install travis --no-ri --no-rdoc \
+    && touch .travis.yml \
     && apk del .build-ruby
 
 CMD travis -h
